@@ -32,16 +32,13 @@ window.onload = function(){
 
         if(tens <= 9){
           appendTens.innerHTML = "0" + tens;
-          console.log(tens + "One");
         }
 
         if(tens > 9){
             appendTens.innerHTML = "0" + tens;
-            console.log(tens + "Two");
         }
  
         if(tens > 99){
-            console.log(tens + "Three");
 
             seconds++;
             appendSeconds.innerHTML = "0" + seconds;
@@ -52,7 +49,6 @@ window.onload = function(){
 
         if(seconds > 9){
             appendSeconds.innerHTML = seconds;
-            console.log(tens + "Four");
         }
 
 
